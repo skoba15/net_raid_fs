@@ -1,0 +1,18 @@
+errorlog = /home/vagrant/code/personal/errorlog.txt
+cache_size = 1024M
+cache_replacement = rlu
+timeout = 10
+
+diskname = STORAGE1
+mountpoint = /home/vagrant/code/personal/mountpoint
+raid = 1
+servers = 127.0.0.1:10001, 127.0.0.1:10002
+hotswap = 127.0.0.1:11111
+
+diskname = STORAGE2
+mountpoint = /home/vagrant/code/personal/mountpoint2
+raid = 5
+servers = 127.0.0.1:10011, 127.0.0.1:10012
+hotswap = 127.0.0.1:22222
+
+
